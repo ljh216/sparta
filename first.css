@@ -1,0 +1,49 @@
+p{
+color:black;
+}
+h1{
+color:black;
+text-align: center;
+}
+h2{
+color:white;
+text-align: center;
+font-size: 15px;
+}
+.nemo-red{
+/*background: red;*/
+background-image: url(http://www.forest.go.kr/newkfsweb/cmm/fms/FileDown.do?atchFileId=FILE_000000010008639&fileSn=0);
+}
+.nemo-green{
+background: green;
+margin-bottom: 30px
+}
+.nemo-gray{
+background: gray;
+padding-top: 20px;
+}
+.nemo-orange{
+background: orange;
+}
+.nemo2{
+	padding-top: 20px;
+	width:300px;
+	height:200px;
+	border-radius: 10px
+}
+*{
+	font-family: 'Nanum Gothic', sans-serif;
+}
+.cards{
+	display: flex;
+}
+.card{
+	margin: 10px;
+}
+*{
+	font-family: 'Do Hyeon', sans-serif;
+}
+
+.form-box{
+	border: 3px solid; padding: 10px; width: 300px; margin: auto; border-radius: 10px; text-align: center;
+}
