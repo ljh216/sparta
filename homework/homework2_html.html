@@ -24,8 +24,12 @@
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
     <script>
-             
-      function btn btn-primary(){
+      $(document).ready(function(){
+        $('#button').click(function(){
+          btnPrimary();
+        })
+      })
+      function btnPrimary(){
         let select = $('#order_select').val();
         let name = $('#order_name').val();
         let address = $('#order_address').val();
@@ -48,7 +52,7 @@
           $('order_phone').focus()
           return
         }
-
+      }
      </script>
 
 
@@ -117,6 +121,6 @@
 
 
 
-        <button type="button" class="btn btn-primary">flex!</button>
+        <button type="button" class="btn btn-primary" id="button">flex!</button>
     </body>
     </html>
